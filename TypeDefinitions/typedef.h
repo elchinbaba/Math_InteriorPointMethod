@@ -6,7 +6,7 @@
 #ifndef TYPEDEF_H
 #define TYPEDEF_H
 
-namespace TypeDefinitions
+namespace InteriorPointMethod
 {
 	typedef long double VALUE;
 
@@ -37,6 +37,8 @@ namespace TypeDefinitions
 	typedef VALUE X;
 
 	typedef class Matrix MATRIX;
+
+	typedef struct IPM IPM;
 }
 
 #endif //!TYPEDEF_H

@@ -144,9 +144,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="framework.h" />
+    <ClInclude Include="ipm-struct.h" />
     <ClInclude Include="typedef.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ipm-struct.cpp" />
     <ClCompile Include="TypeDefinitions.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
