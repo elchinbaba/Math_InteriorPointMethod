@@ -7,10 +7,7 @@
 
 namespace InteriorPointMethod
 {
-	class BarrierFunction : public Function
-	{
-
-	};
+	class BarrierFunction : public Function {};
 }
 
 #endif // !BARRIER_FUNCTION_H

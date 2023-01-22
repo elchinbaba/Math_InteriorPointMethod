@@ -37,6 +37,8 @@ namespace InteriorPointMethod
 	typedef VALUE X;
 
 	typedef class Matrix MATRIX;
+
+	typedef struct IPM IPM;
 }
 
 #endif //!TYPEDEF_H
