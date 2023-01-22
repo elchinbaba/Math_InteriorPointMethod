@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TypeDefinitions", "TypeDefi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Matrix", "Matrix\Matrix.vcxproj", "{626EF503-D899-4924-96D7-31B32B5290FE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Differential", "Differential\Differential.vcxproj", "{0FF3DB33-277E-42C0-8A6F-74C039FFB160}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{626EF503-D899-4924-96D7-31B32B5290FE}.Release|x64.Build.0 = Release|x64
 		{626EF503-D899-4924-96D7-31B32B5290FE}.Release|x86.ActiveCfg = Release|Win32
 		{626EF503-D899-4924-96D7-31B32B5290FE}.Release|x86.Build.0 = Release|Win32
+		{0FF3DB33-277E-42C0-8A6F-74C039FFB160}.Debug|x64.ActiveCfg = Debug|x64
+		{0FF3DB33-277E-42C0-8A6F-74C039FFB160}.Debug|x64.Build.0 = Debug|x64
+		{0FF3DB33-277E-42C0-8A6F-74C039FFB160}.Debug|x86.ActiveCfg = Debug|Win32
+		{0FF3DB33-277E-42C0-8A6F-74C039FFB160}.Debug|x86.Build.0 = Debug|Win32
+		{0FF3DB33-277E-42C0-8A6F-74C039FFB160}.Release|x64.ActiveCfg = Release|x64
+		{0FF3DB33-277E-42C0-8A6F-74C039FFB160}.Release|x64.Build.0 = Release|x64
+		{0FF3DB33-277E-42C0-8A6F-74C039FFB160}.Release|x86.ActiveCfg = Release|Win32
+		{0FF3DB33-277E-42C0-8A6F-74C039FFB160}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
