@@ -6,7 +6,7 @@
 #ifndef TYPEDEF_H
 #define TYPEDEF_H
 
-namespace TypeDefinitions
+namespace InteriorPointMethod
 {
 	typedef long double VALUE;
 
