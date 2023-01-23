@@ -12,7 +12,6 @@ namespace InteriorPointMethod
 		START_POINT x;
 
 	protected:
-		virtual POINT calculate() = 0;
 	};
 }
 
