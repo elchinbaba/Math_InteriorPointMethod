@@ -46,6 +46,12 @@ namespace InteriorPointMethod
 		NewtonMethod::gradient = Matrix(n, 1);
 		NewtonMethod::hessian = Matrix(n, n);
 	}
+	NewtonMethod::NewtonMethod(Function* function, SIZE n, POINT x)
+	{
+		NewtonMethod::function = function;
+		NewtonMethod::gradient = Matrix(n, 1);
+		NewtonMethod::hessian = Matrix(n, n);
+	}
 
 	MATRIX NewtonMethod::getHessian()
 	{
@@ -67,7 +73,7 @@ namespace InteriorPointMethod
 		NewtonMethod::gradient = gradient;
 	}
 
-	void NewtonMethod::evaluateHessian(Function*& function, POINT& point)
+	/*void NewtonMethod::evaluateHessian(Function*& function, POINT& point)
 	{
 		for (SIZE i = 0; i < hessian.row; i++)
 		{
@@ -83,7 +89,7 @@ namespace InteriorPointMethod
 		{
 			gradient.arr[i][0] = derivative(function, point, { i + 1 });
 		}
-	}
+	}*/
 	void NewtonMethod::findHessian(Function*& function, POINT& point)
 	{
 		MATRIX h = Matrix(hessian.row, hessian.column, 0);

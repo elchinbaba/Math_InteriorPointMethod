@@ -17,10 +17,10 @@ namespace InteriorPointMethod
 		OMEGA omega;
 		VALUE alfa = 0.85;
 
-
 	public:
 		NewtonMethod();
 		NewtonMethod(Function*, SIZE);
+		NewtonMethod(Function*, SIZE, POINT);
 
 	public:
 		MATRIX getHessian();
@@ -29,8 +29,8 @@ namespace InteriorPointMethod
 		void setGradient(MATRIX);
 
 	public:
-		void evaluateHessian(Function*&, POINT&);
-		void evaluateGradient(Function*&, POINT&);
+		//void evaluateHessian(Function*&, POINT&);
+		//void evaluateGradient(Function*&, POINT&);
 		void findHessian(Function*&, POINT&);
 		MATRIX findGradient(Function*&, POINT&);
 

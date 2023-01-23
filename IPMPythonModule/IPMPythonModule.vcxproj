@@ -119,7 +119,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\source\repos\Math_InteriorPointMethod\TypeDefinitions;C:\Users\Administrator\source\repos\Math_InteriorPointMethod\IPMethod;C:\Users\Administrator\AppData\Local\Programs\Python\Python311\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\source\repos\Math_InteriorPointMethod\Differential;C:\Users\Administrator\source\repos\Math_InteriorPointMethod\Function;C:\Users\Administrator\source\repos\Math_InteriorPointMethod\Matrix;C:\Users\Administrator\source\repos\Math_InteriorPointMethod\TypeDefinitions;C:\Users\Administrator\source\repos\Math_InteriorPointMethod\IPMethod;C:\Users\Administrator\AppData\Local\Programs\Python\Python311\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
