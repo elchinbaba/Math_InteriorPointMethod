@@ -21,6 +21,7 @@ namespace InteriorPointMethod
 	public:
 		NewtonMethod();
 		NewtonMethod(Function*, SIZE);
+		NewtonMethod(Function* function, ARRAY_SIZE n, POINT x);
 
 	public:
 		MATRIX getHessian();

@@ -72,7 +72,7 @@ namespace InteriorPointMethod
 					//std::cout << "init" << "\n";
 				}
 
-				x = nm->iterate(ipm, x).convertToVector();
+				x = nm->iterate(x).convertToVector();
 
 				//Matrix(m_x).show();
 				if (stopAtNegative && x[x.size() - 1] <= -exp(-O))
