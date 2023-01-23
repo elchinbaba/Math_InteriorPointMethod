@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ipmethod">
+      <UniqueIdentifier>{ff0b2346-e2cb-42f7-be47-4f1d7643a1bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\newton-method">
+      <UniqueIdentifier>{2962da8b-dfbf-4fe0-9c8b-08816defa5cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ipmethod\primal-path-following">
+      <UniqueIdentifier>{438c23ee-d883-4cd6-a430-fe87c0808861}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ipmethod.h">
+      <Filter>Header Files\ipmethod</Filter>
+    </ClInclude>
+    <ClInclude Include="primal-path-following.h">
+      <Filter>Header Files\ipmethod\primal-path-following</Filter>
+    </ClInclude>
+    <ClInclude Include="newton-method.h">
+      <Filter>Header Files\newton-method</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="primal-path-following.cpp">
+      <Filter>Header Files\ipmethod\primal-path-following</Filter>
+    </ClCompile>
+    <ClCompile Include="newton-method.cpp">
+      <Filter>Header Files\newton-method</Filter>
+    </ClCompile>
+    <ClCompile Include="initialize.cpp">
+      <Filter>Header Files\ipmethod\primal-path-following</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
