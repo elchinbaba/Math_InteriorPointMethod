@@ -54,13 +54,13 @@ namespace InteriorPointMethod
 
     static struct PyModuleDef optimizemodule = {
         PyModuleDef_HEAD_INIT,
-        "IPMPythonModule",
+        "optimize",
         "A Python module that returns the solution of the Linear Programming problem using Interior Point Method.",
         -1,
         OptimizeMethods
     };
 
-    PyMODINIT_FUNC PyInit_IPMPythonModule(void) {
+    PyMODINIT_FUNC PyInit_optimize(void) {
         return PyModule_Create(&optimizemodule);
     }
 }
