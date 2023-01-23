@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\include">
+      <UniqueIdentifier>{bdaef2e6-b567-4616-9bde-b81eedae7bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\json">
+      <UniqueIdentifier>{71c093fd-49d3-4a49-afc6-08666e6d2fa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\helpers">
+      <UniqueIdentifier>{7f20be83-df29-4e3a-bf00-084f9c3b1fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\helpers\read_json">
+      <UniqueIdentifier>{7ec21526-b66e-4084-9896-e6f986311047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\problems">
+      <UniqueIdentifier>{a17d3d51-e8f2-4b9a-a00d-7d03071df666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\problems\goal">
+      <UniqueIdentifier>{9f8cb001-c50d-428b-a486-5626905b3b71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="json.hpp">
+      <Filter>Header Files\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="problems.h">
+      <Filter>Header Files\helpers\read_json</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="problems_goal_01-16-2023_03-38-09.json">
+      <Filter>Header Files\problems\goal</Filter>
+    </None>
+  </ItemGroup>
+</Project>
