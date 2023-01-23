@@ -48,13 +48,11 @@ namespace InteriorPointMethod
 		NewtonMethod::hessian = Matrix(n, n);
 	}
 
-	NewtonMethod::NewtonMethod(Function* function, ARRAY_SIZE n, POINT x)
+	NewtonMethod::NewtonMethod(Function* function, SIZE n, POINT x)
 	{
 		NewtonMethod::function = function;
 		NewtonMethod::gradient = Matrix(n, 1);
 		NewtonMethod::hessian = Matrix(n, n);
-		NewtonMethod::x_old = x;
-		NewtonMethod::gradient_old = findGradient(function, x_old);
 	}
 
 	MATRIX NewtonMethod::getHessian()

@@ -17,11 +17,10 @@ namespace InteriorPointMethod
 		OMEGA omega;
 		VALUE alfa = 0.85;
 
-
 	public:
 		NewtonMethod();
 		NewtonMethod(Function*, SIZE);
-		NewtonMethod(Function* function, ARRAY_SIZE n, POINT x);
+		NewtonMethod(Function*, SIZE, POINT);
 
 	public:
 		MATRIX getHessian();

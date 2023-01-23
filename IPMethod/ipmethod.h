@@ -10,8 +10,6 @@ namespace InteriorPointMethod
 	protected:
 		struct IPM ipm;
 		START_POINT x;
-
-	protected:
 	};
 }
 
