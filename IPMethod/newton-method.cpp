@@ -40,12 +40,20 @@ namespace InteriorPointMethod
 		NewtonMethod::hessian = Matrix();
 		NewtonMethod::gradient = Matrix();
 	}
+
 	NewtonMethod::NewtonMethod(Function* function, SIZE n)
 	{
 		NewtonMethod::function = function;
 		NewtonMethod::gradient = Matrix(n, 1);
 		NewtonMethod::hessian = Matrix(n, n);
 	}
+	NewtonMethod::NewtonMethod(Function* function, SIZE n, POINT x)
+	{
+		NewtonMethod::function = function;
+		NewtonMethod::gradient = Matrix(n, 1);
+		NewtonMethod::hessian = Matrix(n, n);
+	}
+
 	NewtonMethod::NewtonMethod(Function* function, SIZE n, POINT x)
 	{
 		NewtonMethod::function = function;
